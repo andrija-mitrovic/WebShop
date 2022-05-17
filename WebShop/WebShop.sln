@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.ApiGateway", "WebShop.ApiGateway\WebShop.ApiGateway.csproj", "{6D593B94-1902-4F75-B397-FB6877162264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShop.ApiGateway", "WebShop.ApiGateway\WebShop.ApiGateway.csproj", "{6D593B94-1902-4F75-B397-FB6877162264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Order.Api", "WebShop.Order.Api\WebShop.Order.Api.csproj", "{114741A5-8737-46D2-B3FC-57FE6BB7F32B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShop.Order.Api", "WebShop.Order.Api\WebShop.Order.Api.csproj", "{114741A5-8737-46D2-B3FC-57FE6BB7F32B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Product.Api", "WebShop.Product.Api\WebShop.Product.Api.csproj", "{E092C20E-EA97-4132-B7D3-66BCE57A53EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShop.Product.Api", "WebShop.Product.Api\WebShop.Product.Api.csproj", "{E092C20E-EA97-4132-B7D3-66BCE57A53EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.User.Api", "WebShop.User.Api\WebShop.User.Api.csproj", "{11CD44C4-2500-4CE9-A216-F0484BBC902E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShop.User.Api", "WebShop.User.Api\WebShop.User.Api.csproj", "{11CD44C4-2500-4CE9-A216-F0484BBC902E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Infrastructure", "WebShop.Infrastructure\WebShop.Infrastructure.csproj", "{E1087FA9-B6FE-4937-83AF-1F55E7904F21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShop.Infrastructure", "WebShop.Infrastructure\WebShop.Infrastructure.csproj", "{E1087FA9-B6FE-4937-83AF-1F55E7904F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Product.Query.Api", "WebShop.Product.Query.Api\WebShop.Product.Query.Api.csproj", "{44866094-A01F-4441-91DD-E4F5998F5AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Product.DataProvider", "WebShop.Product.DataProvider\WebShop.Product.DataProvider.csproj", "{3B764940-FAFC-40E8-93C7-83B18FBC4A07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{E1087FA9-B6FE-4937-83AF-1F55E7904F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1087FA9-B6FE-4937-83AF-1F55E7904F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1087FA9-B6FE-4937-83AF-1F55E7904F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44866094-A01F-4441-91DD-E4F5998F5AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44866094-A01F-4441-91DD-E4F5998F5AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44866094-A01F-4441-91DD-E4F5998F5AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44866094-A01F-4441-91DD-E4F5998F5AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B764940-FAFC-40E8-93C7-83B18FBC4A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B764940-FAFC-40E8-93C7-83B18FBC4A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B764940-FAFC-40E8-93C7-83B18FBC4A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B764940-FAFC-40E8-93C7-83B18FBC4A07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
